@@ -12,8 +12,8 @@ export default function Documents() {
   ];
 
   return (
-    <div className="px-10 md:px-20 lg:px-20 bg-white dark:bg-background">
-    <div className=" max-w-5xl md:max-w-7xl lg:max-w-7xl mx-auto py-20 flex flex-col items-center gap-12 ">
+    <div className="px-10 md:px-20 lg:px-20 bg-white dark:bg-background py-10 md:py-20 lg:py-20">
+    <div className=" max-w-5xl md:max-w-7xl lg:max-w-7xl mx-auto  flex flex-col items-center gap-12 ">
       
       {/* Top row: 3 items */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center w-full max-w-5xl">
