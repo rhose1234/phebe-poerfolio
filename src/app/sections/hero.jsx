@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div className="min-h-screen flex flex-col-reverse gap-2 md:flex-row lg:flex-row 
     items-center justify-center pb-10 items-center pt-2 md:mt-0 lg:mt-0 md:space-x-6  
-    lg:space-x-6 px-10 md:px-20 lg:px-24  bg-white dark:bg-background text-background dark:text-white">
+    lg:space-x-6 px-10 md:px-20 lg:px-24  bg-white text-foreground dark:bg-foreground dark:text-white">
      
     
 

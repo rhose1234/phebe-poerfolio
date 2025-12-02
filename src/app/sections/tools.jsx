@@ -89,7 +89,7 @@ export default function Tools() {
   return (
     <div>
       {/* Tools section */}
-      <div className="overflow-hidden w-full py-20 dark:bg-background bg-white ">
+      <div className="overflow-hidden w-full py-20 bg-white text-black dark:bg-black dark:text-white ">
         <div
           className="toolsContainer flex gap-6 min-w-max"
           ref={toolsRef}
@@ -97,7 +97,7 @@ export default function Tools() {
           {fullTools.map((tool, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-background text-background dark:text-white shadow-md rounded-xl flex flex-col items-center text-center w-28 px-4 py-3
+              className="bg-white dark:bg-white/10 text-foreground dark:text-white shadow-md rounded-xl flex flex-col items-center text-center w-28 px-4 py-3
                shrink-0 transition-all duration-300 hover:scale-[1.05] hover:shadow-xl" >
               <Image
                 src={tool.image}

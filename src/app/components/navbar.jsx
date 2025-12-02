@@ -13,7 +13,7 @@ export default function Navbar() {
   const closeNav = () => setOpen(false)
 
   return (
-    <nav className="w-full py-4 sticky shadow-md bg-white dark:bg-background text-black dark:text-white top-0 z-50 border-b">
+    <nav className="w-full py-4 sticky shadow-md bg-white text-foreground dark:bg-foreground dark:text-white top-0 z-50 border-b">
 
       {/* NAV CONTAINER */}
       <div className="max-w-8xl px-6 md:px-10 lg:px-20 space-x-20  flex justify-between items-center">

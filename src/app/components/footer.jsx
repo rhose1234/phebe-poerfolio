@@ -8,8 +8,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className='bg-white dark:bg-background px-10 md:px-20 lg:px-20'>
-    <div className=" max-w-5xl md:max-w-7xl lg:max-w-7xl mx-auto py-10 flex flex-col md:flex-row lg:flex-row justify-between items-center gap-6 border-t border-gray-300">
+    <div className='bg-white dark:bg-foreground px-10 md:px-20 lg:px-20'>
+    <div className=" max-w-5xl md:max-w-7xl lg:max-w-7xl mx-auto py-10 flex flex-col md:flex-row lg:flex-row justify-between items-center gap-6 border-t border-gray-800">
       
       <p className="text-center text-sm text-gray-600 dark:text-purple">
         &copy; {new Date().getFullYear()} Phebe Testimony. All rights reserved.
