@@ -45,7 +45,7 @@ const closeModal = () => setSelected(null)
 
 
   return (
-    <section className="py-16 px-10 md:px-20 lg:px-24 bg-white dark:bg-background text-background dark:text-white">
+    <section className="py-16 px-6 md:px-20 lg:px-20 bg-white dark:bg-background text-background dark:text-white">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16">
         Certifications
       </h2>
@@ -55,14 +55,13 @@ const closeModal = () => setSelected(null)
           <div
              onClick={() => openModal(cert)}   
             key={index}
-            className="w-full shadow-lg rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
-          >
-            <div className="relative w-full h-64 md:h-100">
+            className="w-full shadow-lg rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300">
+            <div className="relative lg:w-full md:w-[500px] w-full h-60 md:h-80">
               <Image
                 src={cert.image}
                 alt={cert.title}
                 fill
-                className="h-object-contain w-full"
+                className="h-object-cover w-full"
               />
             </div>
             <div className="p-6 bg-black dark:backdrop-blur-md dark:bg-white/10 text-white ">
@@ -95,7 +94,7 @@ const closeModal = () => setSelected(null)
                           height={500}
                           src={selected.image}
                           alt={selected.title}
-                          className='rounded mb-4 w-[500px] h-100 justify-center items-center mx-auto'
+                          className='rounded mb-4 lg:w-[500px] md:w-[500px] w-full h-auto justify-center items-center mx-auto'
                         />
                       </div>
                     </div>
