@@ -8,6 +8,9 @@
   --lightpurple: #7f7496;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -36,14 +36,14 @@ const closeModal = () => setSelected(null)
   return (
     <div>
       {/* Work samples section */}
-      <div className='workSamples px-6 md:px-20 lg:px-20 my-20'>
+      <div className='workSamples px-6 md:px-20 lg:px-20 py-20 text-background dark:text-white bg-white dark:bg-background'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16'>My Work Samples</h1>
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8 md:gap-2 lg:gap-8'>
       {
        worksamples.map((work, index) => (
         <div key={index} className='rounded '>
           <Image width={500} height={400} src={work.pic} alt={work.title} className='rounded' onClick={() => openModal(work)}></Image>
-          <h4 className='text-xl font-bold text-start mt-4  '>{work.title}</h4>
+          <h4 className='text-xl font-bold text-start mt-4'>{work.title}</h4>
       <div
                       className='flex justify-start items-center gap-2 text-purple font-semibold mt-3'
                       onClick={() => openModal(work)}
@@ -59,13 +59,13 @@ const closeModal = () => setSelected(null)
       
       {
         selected && (
-          <div className='fixed inset-0 bg-opacity-1  flex justify-center items-center z-50' onClick={closeModal}>
+          <div className='fixed inset-0 bg-opacity-1 flex justify-center items-center z-50 ' onClick={closeModal}>
           <div
-                  className='bg-white text-black rounded-lg max-w-5xl shadow-xl w-full px-10 py-10 relative'
+                  className='bg-white text-background dark:bg-background dark:text-white rounded-lg max-w-4xl shadow-lg w-full px-10 py-10 relative'
                   onClick={(e) => e.stopPropagation()} 
                 >
                   <button
-                    className='absolute top-4 right-4 text-black'
+                    className='absolute top-4 right-4 text-background dark:text-white hover:text-purple transition'
                     onClick={closeModal}
                   >
                     <FiX size={24} />

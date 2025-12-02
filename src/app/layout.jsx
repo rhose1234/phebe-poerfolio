@@ -12,9 +12,9 @@ export const metadata = {
   title: "Phebe Testimony Akorede Portfolio",
   description: "Phebe Testimony Akorede Portfolio",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
 };
 

@@ -89,7 +89,7 @@ export default function Tools() {
   return (
     <div>
       {/* Tools section */}
-      <div className="overflow-hidden w-full my-20">
+      <div className="overflow-hidden w-full py-20 dark:bg-background bg-white ">
         <div
           className="toolsContainer flex gap-6 min-w-max"
           ref={toolsRef}
@@ -97,8 +97,8 @@ export default function Tools() {
           {fullTools.map((tool, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-xl flex flex-col items-center text-center w-28 px-4 py-3 shrink-0 transition-all duration-300 hover:scale-[1.05] hover:shadow-xl"
-            >
+              className="bg-white dark:bg-background text-background dark:text-white shadow-md rounded-xl flex flex-col items-center text-center w-28 px-4 py-3
+               shrink-0 transition-all duration-300 hover:scale-[1.05] hover:shadow-xl" >
               <Image
                 src={tool.image}
                 alt={tool.text}
@@ -106,7 +106,7 @@ export default function Tools() {
                 height={70}
                 className="w-16 h-16 object-contain mb-2"
               />
-              <h5 className="font-semibold text-sm text-black">{tool.text}</h5>
+              <h5 className="font-semibold text-sm ">{tool.text}</h5>
             </div>
           ))}
         </div>
