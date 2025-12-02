@@ -8,6 +8,11 @@ import { FiX } from 'react-icons/fi';
 
 const certifications = [
   {
+    title: "Project Management and Business Analysis PRINCE2® and Agile Course",
+    org: "Almond Careers UK",
+    image: "/almond.png",
+  },
+  {
     title: "Product Management Internship",
     org: "HNG INTERNSHIP",
     image: "/hng.png",
@@ -26,13 +31,7 @@ const certifications = [
     title: "Professional Development Skills For The Digital Age",
     org: "ALX",
     image: "/alx.png",
-  },
-    {
-    title: "Project Management and Business Analysis PRINCE2® and Agile Course",
-    org: "Almond Careers UK",
-    image: "/almond.png",
-  }
-];
+  }];
 
 
 

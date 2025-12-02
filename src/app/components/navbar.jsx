@@ -10,6 +10,7 @@ import Button from './button'
 export default function Navbar() {
 
   const [open, setOpen] = useState(false)
+  const closeNav = () => setOpen(false)
 
   return (
     <nav className="w-full py-4 sticky shadow-md bg-white dark:bg-background text-black dark:text-white top-0 z-50 border-b">
@@ -40,27 +41,29 @@ export default function Navbar() {
 
           {/* MENU */}
           <ul className="flex gap-8 md:text-md lg:text-md text-md ">
-            <Link href="#"><li className="hover:text-purple transition">Home</li></Link>
-            <Link href="#"><li className="hover:text-purple transition">About</li></Link>
-            <Link href="#"><li className="hover:text-purple transition">Projects</li></Link>
-            <Link href="#"><li className="hover:text-purple transition">Contact</li></Link>
+            <Link href="#"><li className="hover:text-purple transition" >Home</li></Link>
+            <Link href="#"><li className="hover:text-purple transition" >About</li></Link>
+            <Link href="#"><li className="hover:text-purple transition" >Projects</li></Link>
+            <Link href="#"><li className="hover:text-purple transition" >Contact</li></Link>
             <ThemeToggle/>
            
             </ul>
 
           {/* BUTTON */}
-          <Button className='px-8 py-3' href="#">Book a Call</Button>
+          <Button className='px-8 py-3' href="https://calendly.com/akoredephebe2">Book a Call</Button>
 
         </div>
 
         {/* Mobile Menu Icon */}
-        <div className="flex space-x-4 md:hidden cursor-pointer" onClick={() => setOpen(!open)}>
-        
-       <ThemeToggle/>
-          {open ? <HiOutlineX size={28} /> : <HiOutlineMenu size={28} />}
+        <div className="flex space-x-4 md:hidden items-center">
+          <ThemeToggle/>
+           <div className="cursor-pointer" onClick={() => setOpen(!open)}>
+                  {open ? <HiOutlineX size={28} /> : <HiOutlineMenu size={28} />}
+          </div>
 
+         
         </div>
-
+    
 
       </div>
 
@@ -68,12 +71,12 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden px-6 py-6  flex flex-col gap-6 md:text-md lg:text-md text-sm ">
 
-          <Link href="#"><span className="text-lg hover:text-purple">Home</span></Link>
-          <Link href="#"><span className="text-lg hover:text-purple">About</span></Link>
-          <Link href="#"><span className="text-lg hover:text-purple">Projects</span></Link>
-          <Link href="#"><span className="text-lg hover:text-purple">Contact</span></Link>
+          <Link href="#"><span className="text-lg hover:text-purple" onClick={closeNav} >Home</span></Link>
+          <Link href="#"><span className="text-lg hover:text-purple" onClick={closeNav}  >About</span></Link>
+          <Link href="#"><span className="text-lg hover:text-purple" onClick={closeNav}  >Projects</span></Link>
+          <Link href="#"><span className="text-lg hover:text-purple" onClick={closeNav} >Contact</span></Link>
 
-          <Button href="#" className='px-8  py-3'>Book a Call</Button>
+          <Button href="https://calendly.com/akoredephebe2" className='px-8  py-3' onClick={closeNav} >Book a Call</Button>
 
         </div>
       )}

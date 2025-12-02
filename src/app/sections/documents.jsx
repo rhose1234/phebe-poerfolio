@@ -13,6 +13,9 @@ export default function Documents() {
 
   return (
     <div className="px-10 md:px-20 lg:px-20 bg-white dark:bg-background py-10 md:py-20 lg:py-20">
+     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16 text-background dark:text-white">
+        Some Documents i Have Worked On
+      </h2>
     <div className=" max-w-5xl md:max-w-7xl lg:max-w-7xl mx-auto  flex flex-col items-center gap-12 ">
       
       {/* Top row: 3 items */}

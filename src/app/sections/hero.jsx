@@ -8,7 +8,7 @@ import Button from "../components/button";
 export default function Hero() {
   return (
     <div className="min-h-screen flex flex-col-reverse gap-2 md:flex-row lg:flex-row 
-    items-center justify-center pb-10 items-center pt-2 md:mt-0 lg:mt-0 md:space-x-6 
+    items-center justify-center pb-10 items-center pt-2 md:mt-0 lg:mt-0 md:space-x-6  
     lg:space-x-6 px-10 md:px-20 lg:px-24  bg-white dark:bg-background text-background dark:text-white">
      
     
@@ -20,7 +20,7 @@ export default function Hero() {
         alt="Phebe waving"
         width={200}
         height={200}
-        className="w-24 md:w-38 px-0 dark:block hidden"
+        className="w-24 md:w-38 px-0 hidden dark:block"
       />
    
        <Image
@@ -28,7 +28,7 @@ export default function Hero() {
         alt="Phebe waving"
         width={200}
         height={200}
-        className="w-24 md:w-38 px-0 dark:hidden"
+        className="w-24 md:w-38 px-0 block dark:hidden"
         />
         </div>
         <div className="mb-1 mt-2">

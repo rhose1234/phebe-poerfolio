@@ -6,14 +6,19 @@ import { FiSun, FiMoon } from "react-icons/fi";
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
 
-  // Load saved theme when component mounts
   useEffect(() => {
-    const saved = localStorage.getItem("theme");
-    if (saved) {
-      setTheme(saved);
-      document.documentElement.classList.toggle("dark", saved === "dark");
-    }
-  }, []);
+  const saved = localStorage.getItem("theme");
+  if (saved) {
+    setTheme(saved);
+    document.documentElement.classList.toggle("dark", saved === "dark");
+  } else {
+    // Detect system preference
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(prefersDark ? "dark" : "light");
+    document.documentElement.classList.toggle("dark", prefersDark);
+  }
+}, []);
+
 
   // Toggle Theme
   const toggleTheme = () => {
