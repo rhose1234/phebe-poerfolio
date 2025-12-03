@@ -50,14 +50,14 @@ export default function Projects() {
           <div
             key={index}
             className="mb-10 pb-6 shadow-lg px-6 md:px-10 lg:px-10 rounded-xl flex flex-col md:flex-row gap-12 items-center 
-              bg-white dark:bg-black 
+              bg-white dark:bg-white/10
               min-h-[350px" >
             <Image
               src={project.img}
               alt={project.title}
               width={500}
               height={500}
-              className="w-full max-w-md h-70 object-cover rounded-xl mt-4"
+              className="w-full max-w-md h-auto py-4 rounded mt-4"
             />
 
             <div className="flex flex-col justify-center h-full">
