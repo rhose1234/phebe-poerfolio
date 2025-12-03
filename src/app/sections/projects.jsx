@@ -25,7 +25,7 @@ export default function Projects() {
       title: "Logistics Company Website –  Project Experience",
       role: "IT Project Manager",
       type: "Website Development",
-      methodology: "Scrum",
+      methodology: "Agile (Scrum)",
       img: "/logistics1.png",
       link: "",
     },
@@ -33,7 +33,7 @@ export default function Projects() {
       title: "Travel Booking Website – Project Experience",
       role: "IT Project Manager",
       type: "Website Development",
-      methodology: "Scrum",
+      methodology: "Agile (Scrum)",
       img: "/travel1.png",
       link: "",
     },
@@ -49,7 +49,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="mb-10 pb-6 shadow-lg px-0 md:px-10 lg:px-10 rounded-xl flex flex-col md:flex-row gap-12 items-center 
+            className="mb-10 pb-6 shadow-lg px-6 md:px-10 lg:px-10 rounded-xl flex flex-col md:flex-row gap-12 items-center 
               bg-white dark:bg-black 
               min-h-[350px" >
             <Image
@@ -61,7 +61,7 @@ export default function Projects() {
             />
 
             <div className="flex flex-col justify-center h-full">
-              <h2 className="text-3xl font-bold mb-2">{project.title}</h2>
+              <h2 className="text-xl md:text-3xl font-bold mb-2">{project.title}</h2>
               <p className="mb-1">
                 <strong>Role:</strong> {project.role}
               </p>
