@@ -36,8 +36,8 @@ const closeModal = () => setSelected(null)
   return (
     <div>
       {/* Work samples section */}
-      <div className='workSamples px-6 md:px-20 lg:px-20 py-20 text-foreground dark:text-white bg-white dark:bg-foreground'>
-      <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16'>My Work Samples</h1>
+      <div className='workSamples px-6 md:px-20 lg:px-20 py-20 text-black dark:text-white bg-white dark:bg-black'>
+      <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16'>Work Samples</h1>
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8 md:gap-2 lg:gap-8'>
       {
        worksamples.map((work, index) => (
@@ -61,11 +61,11 @@ const closeModal = () => setSelected(null)
         selected && (
           <div className='fixed inset-0 bg-white/30 flex justify-center items-center z-50 ' onClick={closeModal}>
           <div
-                  className='bg-white text-foreground dark:bg-foreground dark:text-white rounded-lg max-w-4xl shadow-xl w-full px-10 py-10 relative'
+                  className='bg-white text-black dark:bg-black dark:text-white rounded-lg max-w-4xl shadow-xl w-full px-10 py-10 relative'
                   onClick={(e) => e.stopPropagation()} 
                 >
                   <button
-                    className='absolute top-4 right-4 text-foreground dark:text-white hover:text-purple transition'
+                    className='absolute top-4 right-4 text-black dark:text-white hover:text-purple transition'
                     onClick={closeModal}
                   >
                     <FiX size={24} />

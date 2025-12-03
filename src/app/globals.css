@@ -2,12 +2,21 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #000000;
   --purple: #7D58C9;
   --lightpurple: #7f7496;
 }
 
+/* allow explicit dark mode only when .dark is present */
+html.dark {
+  color-scheme: dark;
+  --background: #181616;
+  --foreground: #ffffff;
+}
+
+/* custom-variant line you already had */
 @custom-variant dark (&:where(.dark, .dark *));
 
 

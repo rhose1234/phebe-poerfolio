@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className="light">
       <body
         suppressHydrationWarning={true}
         className={`${outfit.variable} antialiased`}

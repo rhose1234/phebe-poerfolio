@@ -97,7 +97,7 @@ export default function Tools() {
           {fullTools.map((tool, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-white/10 text-foreground dark:text-white shadow-md rounded-xl flex flex-col items-center text-center w-28 px-4 py-3
+              className="bg-white dark:bg-white/10 text-black dark:text-white shadow-md rounded-xl flex flex-col items-center text-center w-28 px-4 py-3
                shrink-0 transition-all duration-300 hover:scale-[1.05] hover:shadow-xl" >
               <Image
                 src={tool.image}
