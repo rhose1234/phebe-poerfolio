@@ -19,7 +19,7 @@ export default async function ProjectPage({ params }) {
     <div className="px-6 md:px-20 py-20 text-black dark:text-white bg-white dark:bg-black">
       <h1 className="text-4xl md:text-5xl font-bold mb-6">{project.title}</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mb-10 mt-10">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mb-10 mt-10">
         {project.images.splice(1).map((img, idx) => (
           <Image
             key={idx}
@@ -30,7 +30,7 @@ export default async function ProjectPage({ params }) {
             className="w-full h-auto object-cover rounded-lg mb-4"
           />
         ))}
-      </div>
+      </div> */}
 
 
       <div className="space-y-4">
