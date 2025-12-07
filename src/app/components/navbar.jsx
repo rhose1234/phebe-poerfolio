@@ -47,7 +47,7 @@ export default function Navbar() {
             <Link href="#projects">
               <li className="hover:text-purple transition">Projects</li>
             </Link>
-            <Link href="#contact">
+            <Link href="#footer">
               <li className="hover:text-purple transition">Contact</li>
             </Link>
             <ThemeToggle />

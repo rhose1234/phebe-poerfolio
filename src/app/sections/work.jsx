@@ -36,7 +36,7 @@ const closeModal = () => setSelected(null)
   return (
     <div>
       {/* Work samples section */}
-      <div className='workSamples px-6 md:px-20 lg:px-20 py-20 text-black dark:text-white bg-white dark:bg-black'>
+      <div className='px-6 md:px-20 lg:px-20 py-20 text-black dark:text-white bg-white dark:bg-black' id='worksamples'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16'>Work Samples</h1>
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8 md:gap-2 lg:gap-8'>
       {

@@ -44,7 +44,7 @@ const closeModal = () => setSelected(null)
 
 
   return (
-    <section className="py-16 px-6 md:px-20 lg:px-20 bg-white dark:bg-black text-black dark:text-white">
+    <section className=" py-16 px-6 md:px-20 lg:px-20 bg-white dark:bg-black text-black dark:text-white" id="certifications">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16">
         Certifications
       </h2>

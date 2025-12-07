@@ -13,7 +13,7 @@ export default function Documents() {
   ];
 
   return (
-    <div className="px-10 md:px-20 bg-white dark:bg-black py-10 md:py-20">
+    <div className="px-10 md:px-20 bg-white dark:bg-black py-10 md:py-20" id="documents">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-16 text-center text-black dark:text-white">
         Some Documents I Have Worked On
       </h2>

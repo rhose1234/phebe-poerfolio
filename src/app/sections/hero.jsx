@@ -7,9 +7,9 @@ import Button from "../components/button";
 
 export default function Hero() {
   return (
-    <div className="min-h-screen flex flex-col-reverse gap-2 md:flex-row lg:flex-row 
+    <div className=" min-h-screen flex flex-col-reverse gap-2 md:flex-row lg:flex-row 
     items-center justify-center pb-10 items-center pt-2 md:mt-0 lg:mt-0 md:space-x-6  
-    lg:space-x-6 px-10 md:px-20 lg:px-24  bg-white text-black dark:bg-black dark:text-white">
+    lg:space-x-6 px-10 md:px-20 lg:px-24  bg-white text-black dark:bg-black dark:text-white" id="about">
      
     
 

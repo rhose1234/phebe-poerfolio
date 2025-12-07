@@ -89,7 +89,7 @@ export default function Tools() {
   return (
     <div>
       {/* Tools section */}
-      <div className="overflow-hidden w-full py-20 bg-white text-black dark:bg-black dark:text-white ">
+      <div className="overflow-hidden w-full py-20 bg-white text-black dark:bg-black dark:text-white" id="tools">
         <div
           className="toolsContainer flex gap-6 min-w-max"
           ref={toolsRef}
