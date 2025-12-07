@@ -20,18 +20,17 @@ export default async function ProjectPage({ params }) {
       <h1 className="text-4xl md:text-5xl font-bold mb-6">{project.title}</h1>
 
 
-     {/* Image Gallery Section */}
+     {/* Image  Section */}
       {project.images && project.images.length > 1 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10 mt-10">
-          {/* use .slice(1) to create a copy, NOT .splice(1) */}
           {project.images.slice(0).map((img, idx) => (
             <Image
               key={idx}
               src={img}
               alt={`${project.title} screenshot ${idx + 1}`}
-              width={800} // Increased resolution slightly
+              width={800} 
               height={500}
-              className="w-full h-auto rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
+              className="w-full h-auto rounded-lg hover:scale-105 transition-transform duration-300"
             />
           ))}
         </div>
