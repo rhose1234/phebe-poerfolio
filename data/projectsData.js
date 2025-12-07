@@ -32,8 +32,9 @@ export const projectsData = [
     personalReflection: `
       This project reinforced my expertise as a professional IT Project Manager.
     `,
-    images: ["/logistics1.png", "/logistics2.png", "/logistics3.png", "/logistics4.png"]
+    images: ["/logistics1.png", "/logistics2.png", "/logistics3.png"]
   },
+
   {
     title: "Travel Booking Website – Project Experience",
     role: "IT Project Manager",
@@ -62,8 +63,9 @@ export const projectsData = [
     personalReflection: `
       Strengthened project management and web development skills through end-to-end project delivery.
     `,
-    images: ["/travel1.png", "/travel2.png", "/travel4.png", "/travel3.png", ]
+    images: ["/travel1.png", "/travel2.png", "/travel4.png", ]
   },
+
   {
     title: "Global Experiential Learning – Project Experience",
     role: "Project Manager",
@@ -100,12 +102,15 @@ export const projectsData = [
     personalReflection: `
       Planning this summit improved my understanding of virtual event design, structured planning, budgeting, and experiential learning.
     `,
-    images: ["/global1.jpg", "/global2.jpg", "/global3.jpg", "/global4.jpg"]
+    images: ["/global1.jpg", "/global2.jpg", "/global3.jpg"]
   },
+
+
   {
     title: "TEDx Lagos – Project Experience",
     role: "Operations Team Member (Attendees’ Welfare)",
     type: "TEDx Conference",
+    methodology: "Agile (Kanban)",
     slug: "tedx-lagos",
     description: `
       Supported attendees’ welfare, ensuring smooth coordination of food, drinks, and refreshments during the event.
@@ -126,8 +131,10 @@ export const projectsData = [
     personalReflection: `
       Exposed me to foundational project management practices, strengthening my confidence in PM roles.
     `,
-    images: ["/tedx1.jpg", "/tedx2.jpg", "/tedx3.PNG", "/tedx4.PNG"]
+    images: ["/tedx1.jpg", "/tedx2.jpg", "/tedx3.png"]
   },
+
+
   {
     title: "The Genesis Conference – Project Experience",
     role: "Programs Team Lead",
@@ -163,7 +170,7 @@ export const projectsData = [
     personalReflection: `
       Deepened experience as a team leader and event coordinator; gained insights on AI applications and event management.
     `,
-    images: ["/genesis1.jpg", "/genesis2.jpg", "/genesis3.jpg", "/genesis4.jpg"]
+    images: ["/genesis1.jpg", "/genesis2.jpg", "/genesis3.jpg"]
   },
   
 ];

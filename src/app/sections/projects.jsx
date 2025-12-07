@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className=" px-6 md:px-20 py-20" id="projects">
-      <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
+    <div className=" px-6 md:px-20 py-20 bg-white dark:bg-black" id="projects">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center mb-16">My Projects</h1>
 
       <div className="grid gap-10">
         {projectsData.map(project => (
