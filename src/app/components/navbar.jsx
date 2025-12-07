@@ -15,7 +15,8 @@ export default function Navbar() {
       {/* NAV CONTAINER */}
       <div className="max-w-8xl px-6 md:px-10 lg:px-20 space-x-20  flex justify-between items-center">
         {/* Logo */}
-        <div className="logo">
+        <Link href="/">
+        <div className="logo" >
           <Image
             src="/logo.svg"
             width={300}
@@ -31,21 +32,22 @@ export default function Navbar() {
             className="w-16 md:w-24 dark:hidden"
           />
         </div>
+        </Link>
 
         {/* MENU + BUTTON (desktop) */}
         <div className="hidden md:flex items-center gap-20">
           {/* MENU */}
           <ul className="flex gap-8 md:text-md lg:text-md text-md ">
-            <Link href="#">
+            <Link href="/">
               <li className="hover:text-purple transition">Home</li>
             </Link>
-            <Link href="#">
+            <Link href="#about">
               <li className="hover:text-purple transition">About</li>
             </Link>
-            <Link href="#">
+            <Link href="#projects">
               <li className="hover:text-purple transition">Projects</li>
             </Link>
-            <Link href="#">
+            <Link href="#contact">
               <li className="hover:text-purple transition">Contact</li>
             </Link>
             <ThemeToggle />
