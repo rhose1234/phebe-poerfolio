@@ -42,9 +42,9 @@ export default function Hero() {
 
           <Button
             className="py-4 px-10 "
-            href="https://docs.google.com/document/d/1Ad_OnkCHTzZ9782G7732JNZcOIfW0nmSkfRTYQAopLA/edit?usp=drivesdk"
+            href="https://docs.google.com/document/d/10ns4pHWZ-fWfnuhlScDKxGaBvXyLnR1tzJjsNi1jSRk/edit?usp=drivesdk"
           >
-            Hire Me!
+            Vew My Resume
           </Button>
         </div>
       </div>

@@ -5,7 +5,7 @@ export const projectsData = [
     type: "Website Development",
     teamSize: "8 members",
     duration: "8 weeks (4 sprints)",
-    methodology: "Scrum",
+    methodology: "Hybrid",
     slug: "logistics-company-website",
     description: `
       The Logistics Company Website project involved designing and developing a responsive, scalable website to optimize client operations and enhance customer engagement.
@@ -141,7 +141,7 @@ export const projectsData = [
     type: "Tech & Business Conference",
     theme: "Leveraging Artificial Intelligence Across Multiple Sectors",
     teamSize: "13 members",
-    methodology: "Kanban",
+    methodology: "Agile (Kanban)",
     slug: "genesis-conference",
     description: `
       A tech and business-focused event centered on AI applications and trends. Oversaw program flow and event execution.
