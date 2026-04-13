@@ -1,4 +1,43 @@
 export const projectsData = [
+   {
+    title: "Agrotech Website – Product Experience",
+    role: "Product Manager",
+    type: "Website Development",
+    teamSize: "5 members (Frontend Developer, Backend Developer, Product Designers, Technical Writer, Product Manager)",
+    duration: "3 weeks",
+    methodology: " Agile(Scrum)",
+    slug: "farm-input-website",
+    description: `
+        The FarmInput project involved designing and developing a web-based platform to help farmers track agricultural input costs, access price insights, and collaborate through group buying. The goal was to improve purchasing decisions, increase price transparency, and reduce overall input costs through collective bargaining.
+    `,
+    responsibilities: [
+      "Defined the product vision, scope, and core features based on user and market research",
+      "Conducted user research to identify key challenges and determine what features to include or exclude",
+      "Created detailed user flows, which guided product designers in developing intuitive and user-friendly designs",
+      "Reviewed and validated design outputs to ensure alignment with product goals and user needs",
+      "Wrote epics and user stories to provide clear direction for development and reduce ambiguity",
+      "Collaborated closely with frontend and backend developers to ensure accurate feature implementation",
+      "Worked with technical writers to ensure proper product documentation",
+      "Monitored team progress and ensured alignment across all stages of development",
+      "Acted as the central point of communication between all cross-functional team member",
+    ],
+    metrics: [
+      "Acted as the central point of communication between all cross-functional team member",
+      "Maintained strong alignment between product requirements, design, and development",
+      "Successfully coordinated a 5-member cross-functional team",
+      "Ensured clarity and consistency through well-structured product documentation"
+    ],
+    results: [
+      "Delivered a functional web platform enabling farmers to track input costs and coordinate group purchases",
+      "Designed a solution capable of reducing input costs by 20–30% through bulk buying",
+      "Improved user decision-making through better visibility into pricing and spending patterns",
+      "Enabled collaboration among farmers, increasing their collective purchasing power"
+    ],
+    personalReflection: `
+      This project strengthened my ability to translate user needs into structured product solutions, prioritize high-impact features under time constraints, and effectively coordinate cross-functional teams to deliver a user-focused product.
+    `,
+    images: ["/farminput1.jpg", "/farminput2.jpg", "/farminput3.jpg"]
+  },
   {
     title: "Logistics Company Website – Project Experience",
     role: "IT Project Manager",
@@ -172,5 +211,7 @@ export const projectsData = [
     `,
     images: ["/genesis1.jpg", "/genesis2.jpg", "/genesis3.jpg"]
   },
+
+   
   
 ];
