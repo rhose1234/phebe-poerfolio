@@ -37,8 +37,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-sm md:text-sm leading-relaxed mb-10 w-full">
-            An IT Project Manager and Startup Operations Specialist with hands-on experience leading cross-functional teams, building
-            structure for growing startups, and delivering high-impact technical projects. </p>
+            An IT Project and Product Manager with experience as a Startup Operations Specialist, leading cross-functional teams, building scalable structures for growing startups, and delivering high-impact technical projects. </p>
 
           <Button
             className="py-4 px-10 "
